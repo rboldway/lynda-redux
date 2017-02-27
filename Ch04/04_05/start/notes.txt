@@ -1,0 +1,3 @@
+Go to new terminal window and start suggestion server by:
+
+npm run suggestions
