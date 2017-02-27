@@ -47,9 +47,9 @@ export const clearSuggestions = () =>
         type: C.CLEAR_SUGGESTIONS
     })
 
-export const randomGoals = () = (dispatch, getState) => {
+export const randomGoals = () => (dispatch, getState) => {
 
-    if (!getState.resortNames.fetching) {
+    if (!getState().resortNames.fetching) {
 
         dispatch({
             type: C.FETCH_RESORT_NAMES
