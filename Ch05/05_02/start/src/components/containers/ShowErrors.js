@@ -1,5 +1,10 @@
 import ShowErrors from '../ui/ShowErrors'
+import { clearError } from '../../actions'
+import { connect } from 'react-dedux'
 
-export default () =>
-	<ShowErrors errors={['sample error']}
-						  onClearError={index => console.log('todo: clear error at', index)} />
+
+const map
+
+
+	// <ShowErrors errors={['sample error']}
+	// 					  onClearError={index => console.log('todo: clear error at', index)} />
